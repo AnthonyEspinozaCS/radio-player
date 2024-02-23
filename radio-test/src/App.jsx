@@ -3,7 +3,6 @@ import "./App.css";
 import Radio from "./components/Radio";
 
 function App() {
-  const userStatus = useState(0);
   return (
     <>
       <h1>Radio 2k</h1>
