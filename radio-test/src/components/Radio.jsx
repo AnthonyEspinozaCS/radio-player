@@ -5,8 +5,8 @@ export default function Radio() {
   const [stations, setStations] = useState();
   const [stationFilter, setStationFilter] = useState("all");
 
-  const api = async (stationFilter) => {
-    new RadioBrowserApi("My Radio App");
+  const setup = async (stationFilter) => {
+    const api = new RadioBrowserApi("My Radio App");
   };
 
   return (
