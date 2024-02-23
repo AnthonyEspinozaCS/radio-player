@@ -10,8 +10,8 @@ export default function Radio() {
   };
 
   return (
-    <div>
-      <h2>Radio Component</h2>
+    <div className="radio">
+      <div className="filters"></div>
     </div>
   );
 }
